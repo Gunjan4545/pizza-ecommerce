@@ -1,0 +1,127 @@
+/* Add this CSS to style your pizza customization form */
+.body{
+    background-image: url('pizza.webp');
+    background-size:cover;
+    background-position: center; 
+}
+.pizza-container {
+    display: flex;
+    justify-content: center;
+    width: 80%; /* Reduce the width to make it smaller */
+    max-width: 700px; /* Set a maximum width */
+    margin: 0 30px 0 auto; /* Reduced margin from top and bottom */
+  }
+  
+ .pizza-container .left-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pizza-container .right-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+  }
+  
+ .pizza-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #ff6600;
+    
+  }
+ .body h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #ff6600;
+    font-family: cursive;
+    
+  }
+  
+.pizza-container  label {
+    font-weight: bold;
+  }
+  
+ .pizza-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+
+  
+  /* Style the checkbox container to display checkboxes in one line */
+
+ .pizza-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+ .pizza-container .right-section p {
+    color: #000;
+    font-size: 20px;
+    /* margin-top: 20px; */
+  }
+  
+ .pizza-container span {
+    color: #ff6600;
+    font-size: 16px;
+    
+  }
+  
+  /* Style the total price prominently */
+ .pizza-container h2.Total-Price {
+    color: #ff6600;
+    font-size: 24px;
+  }
+  
+  /* Add some hover effects for checkboxes */
+ .pizza-container input[type="checkbox"]:hover {
+    cursor: pointer;
+  }
+  
+  /* Style the selected ingredients section */
+ .pizza-container .right-section p {
+    font-weight: bold;
+   
+  }
+  .pizza-container .order-button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .pizza-container .veggie-options {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute checkboxes evenly */
+  }
+  
+  .pizza-container .veggies {
+    flex: 0 0 calc(55% - 20px); /* Adjust the width as needed to fit three checkboxes per row */
+    margin-right: 5px; /* Reduce the margin for spacing */
+    margin-bottom: 10px;
+    font-size: 10px;
+   
+  }
+  
+  .pizza-container .veggie-options input {
+    width: auto; /* Remove the fixed width to allow checkboxes to expand */
+    margin-right: 5px; /* Add some spacing between checkboxes */
+    
+  }
+  

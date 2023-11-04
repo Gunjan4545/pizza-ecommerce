@@ -1,0 +1,307 @@
+/* HomePage.css */
+/* HomePage.css */
+
+.pizza-order-home {
+  background-image: url('pizza.webp');
+  background-size:cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  padding: 200px;
+}
+.menu p{
+  text-align: left;
+}
+.pizza-order-home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white; /* Text color on the background image */
+}
+
+.pizza-order-home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white; /* Text color on the background image */
+}
+
+.pizza-order-home a {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.pizza-order-home a:hover {
+  background-color: #ff704d;
+}
+
+
+  /* Home.css */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .menu .item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .menu .pizza-image {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .menu .item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .menu .item p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: black;
+  }
+  
+.btn1 {
+    background-color:rgb(32, 173, 221);
+    color: black;
+  }
+.btn2 {
+    background-color:red;
+    color: white;
+  }
+
+  
+/* Add these styles to your CSS file */
+.cart h2{
+  text-align:center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #f5f5f5;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table button{
+  background-color: orange;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+table select {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cart-image {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+
+
+.cart p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.cart button {
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.cart form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-right: 40px;
+}
+
+.cart label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.cart input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 100px;
+}
+
+/* Button Styles */
+.cart .button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  background-color: #007bff; /* Button background color */
+  color: black; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for links */
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.cart .button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* You can add more styles as needed, such as padding, margins, and text size. */
+.category{
+  text-align: center;
+}
+
+.category h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+/* Your CSS file */
+#rs {
+  float: right; /* This will place the content on the right side */
+  text-align: right; /* Align the text to the right within the div */
+  margin-right: 20px; /* Add some margin to separate it from the rest of the content */
+}
+
+/* Style the price to highlight it */
+#rs p {
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight:bold;
+  color:black; /* Change the color to red (you can choose any color you like) */
+}
+#rs h1 {
+  font-size: 30px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  color:orange; /* Change the color to red (you can choose any color you like) */
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 0 50px;
+  
+}
+
+.category button {
+  background-color: orange; /* Change to your desired background color */
+  border-radius: 5px;
+  color: black; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+ margin-left: 10px;
+  cursor: pointer;
+}
+
+.category button:hover {
+  background-color: rgb(226, 148, 3); /* Change to the hover color you prefer */
+}
+.btn button{
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
+.product-item {
+  display: flex;
+  align-items: center; /* Vertically center items within the flex container */
+  margin-bottom: 10px; /* Add some spacing between items */
+}
+/* Add this CSS to your component's stylesheet or a separate CSS file */
+.checkout-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.total-price {
+  text-align: left;
+  font-size: 24px;
+ text-align: center;
+}
+.total-price span {
+  font-size: 30px;
+ 
+  color: orange;
+}
+
+.cart-details {
+  align-content: center;
+  border: 1px solid #ccc;
+  padding: 30px;
+  width:auto;
+  margin-right: 30px;
+}
+
+
+
+.buy-btn {
+  background-color: #3399cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.buy-btn:hover {
+  background-color: #528FF0;
+}
+

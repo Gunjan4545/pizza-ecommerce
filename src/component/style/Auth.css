@@ -1,0 +1,64 @@
+.body{
+    background-image: url('pizza.webp');
+    background-size:cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.body .box{
+    background-color: orange;
+    width:20%;
+    margin: auto;
+    padding: 1px 30px 10px 30px;
+    border-radius: 100px 0 100px 0;
+    border: 1px solid black;
+}
+.box input{
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black ;
+    background-color: orange;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+.box ::placeholder{
+    color:black;
+}
+.box button{
+    background-color: white;
+    color:orange;
+    padding: 5px;
+    border-radius: 25px;
+    border-color: white;
+    width: 50%;
+    display: block;
+    margin:auto;
+    margin-top: 15px;
+
+}
+
+.body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 15px;
+    padding-top: 8%;
+}
+.box p{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+.box a{
+    color:white;
+    font-size: 12px;
+}
+.box h1{
+    text-align: center;
+    color: white;
+}
+.box img{
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+

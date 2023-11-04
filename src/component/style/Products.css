@@ -1,0 +1,204 @@
+.product-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .product-form {
+    background-color: #f1f1f1;
+    padding: 1px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+  }
+  .ship-button{
+    text-align: center;
+  }
+  /* Style your form elements (input, select, button) as needed */
+  .product-form input,
+  .product-form textarea,
+  .product-form select {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-form select {
+    padding: 8px;
+  }
+  .image-preview2{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .image-preview{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .product-form button{
+    margin-top: 10px;
+    background-color: #0077B5;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .error-message{
+    color: red;
+  }
+  .product-form button:hover {
+    background-color: #005C8B;
+  }
+  .product-form .label{
+    text-align: left;
+  }
+  .veggie-options input{
+    width: 10%;
+  }
+  .veggie-options {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .veggies {
+    flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed, this example divides into 3 columns */
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Style for the main container */
+.ingredients {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.ingredients h2 {
+  font-size: 24px;
+}
+
+/* Style for the "Create a New Ingredient" section */
+.ingredients .Iform {
+  margin: 0 30% 0 35% ;
+  padding: 50px;
+  width: fit-content;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:rgb(204, 229, 245);
+  text-align: center;
+  
+}
+.ingredients .Iform h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.ingredients .Iform label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.ingredients .Iform input[type="text"],
+.ingredients .Iform input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.ingredients .Iform button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the "Ingredients List" section */
+.ingredients .ingredient-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ingredients .ingredient-card {
+  width: calc(25% - 100px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.ingredients .Iform select {
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ingredients h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.ingredients p {
+  margin-top: 10px;
+}
+
+.ingredients .ingredient-card  button {
+  background-color: orange;
+  color:black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ingredients .ingredient-card .trash-button {
+  background-color: red;
+  color:white;
+}
+label span{
+  font-size: 15px;
+  color: orange;
+  margin-left: 5px;
+}
+.image-preview p {
+  font-size: 10px;
+  color: red;
+}
+.image-preview2 p {
+  font-size: 10px;
+  color: green;
+}
+.edit-btn{
+  text-align: center;
+}
+/* Media query for responsive design (adjust as needed) */
+@media (max-width: 768px) {
+  .ingredients .ingredient-card {
+    width: calc(50% - 10px);
+  }
+}
+
+  
+ 
